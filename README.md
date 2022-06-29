@@ -16,7 +16,7 @@ Copiez l'adresse url de la page qui s'ouvre. Elle devrait être de la forme `htt
 
 # Récupération de l'exportation GIFT des questions
 Ouvrez cette page : https://degrangem.github.io/labomep-moodle/index.html
-Collez l'url précédemment copiée dans le champs texte « URL de la page "Plus d'information" ».
+Collez l'url précédemment copiée dans le champs texte « URL de la page "Plus d'information" » (ne touchez pas au premier champs texte).
 Cliquez ensuite sur le bouton pour télécharger pour obtenir le fichier GIFT à importer dans moodle.
 
 <details>
