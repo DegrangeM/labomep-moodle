@@ -62,3 +62,6 @@ Une autre possibilité est de configurer l'exercice sur "Feedback immédiat" mai
 
 Pour éviter d'encombrer votre banque de question, vous pouvez créer une catégorie et lors de l'importation choisir la catégorie dans laquelle ajouter les questions.
 
+## Remarque importante sur la triche
+
+Les élèves ont la possibilité de tricher en actualisant la page pour obtenir une nouvelle serie d'exercice. Les élèves doués en informatique ont aussi la possibilité de tricher en se donnant tous les points à l'exercice sans tricher.
