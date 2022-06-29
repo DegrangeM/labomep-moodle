@@ -9,7 +9,7 @@ if (typeof window.LabomepMoodleElements === 'undefined') {
       if (typeof window.LabomepMoodleElements[iMoodle] !== 'undefined') {
         const iframe = window.LabomepMoodleElements[iMoodle]
         if (event.data.result.score !== undefined) {
-          const moodleScore = Math.round(event.data.result.score * 10)*10
+          const moodleScore = Math.round(event.data.result.score * 10) * 10
           iframe.parentNode.parentNode.querySelector('[name$="_answer"]').value = moodleScore
           iframe.parentNode.parentNode.querySelector('[name$="_-submit"]')?.click()
         }
@@ -73,7 +73,26 @@ if (typeof window.LabomepMoodleElements === 'undefined') {
         shadow.appendChild(iframe)
         shadow.appendChild(successMessage)
       } else {
+        const fullscreenIcon = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAB2HAAAdhwGP5fFlAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAEtJREFUWIXtl0EKACAIBNv+/+ftbqBIRBAzV00HhSjZ9mggSVm8W292km+AgOLOqh2fEvs9nwACCCAAAMB7AAEEENjugfIAf8PfBBYFhyAdDEK+jwAAAABJRU5ErkJggg==';
+        const fullscreenElement = document.createElement('img');
+        fullscreenElement.setAttribute('src', fullscreenIcon);
+        fullscreenElement.setAttribute('style', 'position: absolute;top: 25px;right: 30px;cursor: pointer;');
+        fullscreenElement.addEventListener('click', () => {
+          if (!document.fullscreenElement) {
+            this.requestFullscreen();
+          } else {
+            document.exitFullscreen();
+            // Force recize event to fix strange bug
+            setTimeout(() => {
+              iframe.setAttribute('width', '99%');
+              setTimeout(() => { iframe.setAttribute('width', '100%'); }, 100);
+            }, 100);
+
+
+          }
+        });
         shadow.appendChild(iframe)
+        shadow.appendChild(fullscreenElement)
       }
 
     }
