@@ -15,8 +15,11 @@ Rendez-vous sur la plateforme labomep et choisissez l'exercice de votre choix. F
 Copiez l'adresse url de la page qui s'ouvre. Elle devrait être de la forme `https://bibliotheque.sesamath.net/ressource/decrire/5caf95ba4bb1527df9236bc7?inc=3`.
 
 # Récupération de l'exportation GIFT des questions
+
 Ouvrez cette page : https://degrangem.github.io/labomep-moodle/index.html
+
 Collez l'url précédemment copiée dans le champs texte « URL de la page "Plus d'information" » (ne touchez pas au premier champs texte).
+
 Cliquez ensuite sur le bouton pour télécharger pour obtenir le fichier GIFT à importer dans moodle.
 
 <details>
