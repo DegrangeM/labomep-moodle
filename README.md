@@ -8,7 +8,7 @@ Les élèves n'ont pas besoin de compte labomep mais l'enseignant lui à besoin 
 
 ## Choix de l'exercice
 
-Rendez-vous sur la plateforme labomep et choisissez l'exercice de votre choix. Faite ensuite clic droit puis `Plus d'information`.
+Rendez-vous sur la plateforme [labomep](https://labomep.sesamath.net/) et choisissez l'exercice de votre choix. Faite ensuite clic droit puis `Plus d'information`.
 
 ![image](https://user-images.githubusercontent.com/53106394/176483383-5950e3d8-8ff7-4d18-b09d-81b6ba64d685.png)
 
