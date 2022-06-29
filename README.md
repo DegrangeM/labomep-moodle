@@ -28,7 +28,7 @@ Une requête vers les serveurs de Github (Microsoft) sera effectuée à chaque c
 Si vous souhaitez éviter cela, vous pouvez télécharger le fichier <a href="https://github.com/DegrangeM/labomep-moodle/raw/master/labomep-moodle.js">labomep-moodle.js</a> et l'héberger à l'emplacer de votre choix et modifier le champs associé sur la page de génération du GIFT. Cela demande cependant des compétences techniques.
 </details>
 
-## Import des questions dans la banque de question
+## Import de la question dans la banque de question
 
 Si vous n'avez pas encore déjà créé votre activité Test (Quiz en anglais) faites le.
 Accédez au menu d'importation dans la banque de question via le menu de votre activité. 
@@ -40,7 +40,7 @@ Accédez au menu d'importation dans la banque de question via le menu de votre a
 
 Sélectionner le format  `Format GIFT`, déposez votre fichier dans la zone prévu à cet effet et appuyez sur le bouton d'importation.
 
-## Ajouter des questions au test
+## Ajouter la question à un test
 
 Retournez sur votre activité, ouvrez le menu de votre activité et cliquez sur le lien "Modifier le test".
 
@@ -48,7 +48,7 @@ Appuyez sur le lien "Ajouter" et sélectionnez "de la banque de question".
 
 ![image](https://user-images.githubusercontent.com/53106394/155230688-fe9fabf4-00d8-4ea8-b8bb-053b50db99a4.png)
 
-Il ne vous reste plus qu'à cocher les questions que vous souhaitez ajouter, puis à cliquer sur le bouton "Ajouter les questions sélectionnée".
+Il ne vous reste plus qu'à cocher la question précédemment importée, puis à cliquer sur le bouton "Ajouter les questions sélectionnée".
 
 ![image](https://user-images.githubusercontent.com/53106394/155233063-d9bdf5a1-39dd-4b68-bf3a-6e4546f5ab7b.png)
 
