@@ -54,9 +54,9 @@ Il ne vous reste plus qu'à cocher les questions que vous souhaitez ajouter, pui
 
 # Quelques remarques sur la configuration du test
 
-Il est conseillé de configurer le test sur "Feedback à postériori". Dans le cas contraire la validation d'un exercice entraînera un rechargement de la page qui fera perdre le travail en cours sur un exercice de la même page. Une autre possibilité est de configurer l'exercice sur "Feedback immédiat" mais de configurer le test pour n'afficher qu'une seule question par page.
+Il est conseillé de configurer le test sur "Feedback à postériori". Dans le cas contraire la validation d'un exercice entraînera un rechargement de la page qui fera perdre le travail en cours sur un exercice de la même page.
 
-Mathalea n'est pas compatible avec les autres modes de comportement de question. Veuillez noter également que quelque soit la configuration du test, l'élève obtiendra la note ainsi qu'un smiley indiquant si sa réponse est juste ou fausse lorsqu'il validera sa réponse.
+Une autre possibilité est de configurer l'exercice sur "Feedback immédiat" mais de configurer le test pour n'afficher qu'une seule question par page.
 
 # Astuce
 
