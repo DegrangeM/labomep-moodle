@@ -23,7 +23,7 @@
             try {
                 const script_url = document.getElementById('script_url').value;
                 const url_information = new URL(document.getElementById('url_information').value);
-                const exo_id = url_information.pathname.match(/\/ressource\/decrire\/([0-9a-f]+)/)[1];
+                const exo_id = url_information.pathname.match(/\/(?:ressource\/decrire|public\/voir)\/([0-9a-f]+)/)[1];
                 fetch(url_information.origin + '/api/public/' + exo_id).then(r => r.json()).then(r => {
                     const download_link = document.createElement('a');
                     const GIFT = `:: Labomep - ${r?.data?.titre} ::
