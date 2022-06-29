@@ -63,7 +63,18 @@ if (typeof window.LabomepMoodleElements === 'undefined') {
       iframe.setAttribute('src', SERVEUR_URL + 'ressource/voir/' + this.getAttribute('identifiant') + '?loadedMessageAction=sesalab::ressourceLoaded&resultatMessageAction=sesalab::result::' + iMoodle)
       iframe.setAttribute('frameBorder', '0')
       iframe.setAttribute('allow', 'fullscreen')
-      shadow.appendChild(iframe)
+
+      if (!questionDiv.classList.contains('notyetanswered')) {
+        iframe.style.pointerEvents = 'none';
+        iframe.style.filter = 'blur(5px)';
+        const successMessage = document.createElement('div');
+        successMessage.textContent = 'Vous avez déjà effectué cet exercice';
+        successMessage.setAttribute('style', 'position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);background-color: lightgreen;padding: 10px;border: 1px solid green;color: green;');
+        shadow.appendChild(iframe)
+        shadow.appendChild(successMessage)
+      } else {
+        shadow.appendChild(iframe)
+      }
 
     }
 
