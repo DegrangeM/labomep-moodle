@@ -8,7 +8,7 @@ if (typeof window.LabomepMoodleElements === 'undefined') {
       const iMoodle = parseInt(event.data.action.substring('sesalab::result::'.length))
       if (typeof window.LabomepMoodleElements[iMoodle] !== 'undefined') {
         const iframe = window.LabomepMoodleElements[iMoodle]
-        if (event.data.result.score !== undefined) {
+        if (event.data.result.score !== undefined && event.data.result.fin !== false) {
           const moodleScore = Math.round(event.data.result.score * 10) * 10
           iframe.parentNode.parentNode.querySelector('[name$="_answer"]').value = moodleScore
           iframe.parentNode.parentNode.querySelector('[name$="_-submit"]')?.click()
