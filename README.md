@@ -1,8 +1,8 @@
-# Labomep-Moodle
+# Labomep-Moodle (Sesathèque)
  
 _Remarque : cet outil n'est pas un outil officiel_
  
-Labomep-Moodle est une passerelle pour inclure des exercices labomep directement sur moodle dans un Test (quiz).
+Labomep-Moodle est une passerelle pour inclure des exercices labomep (provenant de la sesathèque) directement sur moodle dans un Test (quiz).
 Cela ne permet pas de profiter de toutes les fonctionnaltiés offerte par LaboMep, mais offre la possibilité d'inclure des exos labomep parmi d'autres questions Moodle (et pourquoi pas [Mathalea](https://coopmaths.fr/mathalea.html?v=moodle&z=1)). Cela evite aussi de rajouter une plateforme supplémentaire aux élèves.
 Les élèves n'ont pas besoin de compte labomep mais l'enseignant lui à besoin d'un compte pour des raisons pratiques.
 
