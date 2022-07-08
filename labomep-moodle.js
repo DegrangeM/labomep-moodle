@@ -4,7 +4,7 @@ if (typeof window.LabomepMoodleElements === 'undefined') {
   window.LabomepMoodleElements = []
 
   window.addEventListener('message', (event) => {
-    if (typeof event.data.action.startsWith('sesalab::result::')) {
+    if (event.data?.action.startsWith('sesalab::result::')) {
       const iMoodle = parseInt(event.data.action.substring('sesalab::result::'.length))
       if (typeof window.LabomepMoodleElements[iMoodle] !== 'undefined') {
         const iframe = window.LabomepMoodleElements[iMoodle]
