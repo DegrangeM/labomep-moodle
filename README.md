@@ -1,4 +1,4 @@
-Répertoire archivé, voir : https://aide.labomep.sesamath.net/doku.php?id=tutoriels:moodle:start
+# _Répertoire archivé, voir : https://aide.labomep.sesamath.net/doku.php?id=tutoriels:moodle:start_
 
 # Labomep-Moodle (Sesathèque)
  
