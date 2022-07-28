@@ -1,3 +1,5 @@
+Répertoire archivé, voir : https://aide.labomep.sesamath.net/doku.php?id=tutoriels:moodle:start
+
 # Labomep-Moodle (Sesathèque)
  
 _Remarque : cet outil n'est pas un outil officiel_
